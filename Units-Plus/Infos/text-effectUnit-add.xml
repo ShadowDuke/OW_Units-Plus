@@ -1,0 +1,18 @@
+<Root>
+	<Entry>
+		<zType>TEXT_EFFECTUNIT_MILITARY_SCOUT</zType>
+		<English>Military Scout</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNIT_SCOUT_WARRIOR</zType>
+		<English>Scout Warrior</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTUNIT_MILITARY_SCOUT</zType>
+		<Translation>Militär Späher</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_UNIT_SCOUT_WARRIOR</zType>
+		<Translation>Späher Krieger</Translation>
+	</Entry>
+</Root>

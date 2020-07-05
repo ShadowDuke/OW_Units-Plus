@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSpy v2019 rel. 3 sp1 (x64) (http://www.altova.com) by Leyla Johnson (Private) -->
+<Root>
+	<Entry>
+		<zType>EFFECTUNIT_MILITARY_SCOUT</zType>
+		<Name>TEXT_EFFECTUNIT_MILITARY_SCOUT</Name>
+		<zIconName>EFFECTUNIT_STEALTH</zIconName>
+		<iStrengthModifier>-20</iStrengthModifier>
+		<iCriticalChance>-50</iCriticalChance>
+		<iHealExtra>-1</iHealExtra>
+		<aiUnitTraitModifierDefense>
+			<Pair>
+				<zIndex>UNITTRAIT_INFANTRY</zIndex>
+				<iValue>10</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>UNITTRAIT_MOUNTED</zIndex>
+				<iValue>10</iValue>
+			</Pair>
+		</aiUnitTraitModifierDefense>
+		<aiUnitTraitModifierMelee>
+			<Pair>
+				<zIndex>UNITTRAIT_INFANTRY</zIndex>
+				<iValue>-25</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>UNITTRAIT_MOUNTED</zIndex>
+				<iValue>-25</iValue>
+			</Pair>
+		</aiUnitTraitModifierMelee>
+		<abHideVegetation>
+			<Pair>
+				<zIndex>VEGETATION_TREES</zIndex>
+				<bValue>1</bValue>
+			</Pair>
+		</abHideVegetation>
+	</Entry>
+</Root>
