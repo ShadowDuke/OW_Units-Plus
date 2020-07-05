@@ -48,10 +48,10 @@ New Units for Old World
    - Range: 3
    - Strength: 5
    - Has ZOC
-   - Consumes: 1 FoodYYear, 1 Wood/Year & 1 Iron/Year
+   - Consumes: 1 Food/Year, 1 Wood/Year & 1 Iron/Year
    - Costs: 30 Food, 30 Wood & 30 Iron
    - Build: 100 Training
-    - Has Trait "Javelin"
+   - Has Trait "Javelin"
    - Needs Tech: Phalanx
    
 - Chariot Archer:
