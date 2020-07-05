@@ -53,6 +53,18 @@ New Units for Old World
    - Build: 70 Training
    - Needs Tech: Military Drill
    
+- Chariot Archer:
+   - HP: 20
+   - Movement: 3
+   - Range: 2
+   - Strength: 5
+   - Ignores ZOC
+   - Consumes: 3 Food/Year & 1 Training/Year
+   - Costs: 60 Food & 40 Wood
+   - Build: 80 Training
+   - Needs Horses
+   - Needs Tech: Mounted Archery
+   
 ## New Trait
 
 - Military Scout
