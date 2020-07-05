@@ -53,6 +53,16 @@ New Units for Old World
    - Build: 70 Training
    - Needs Tech: Military Drill
    
+## New Trait
+
+- Military Scout
+   - Hidden in Trees
+   - Heals -1 HP (5HP -> 4HP)
+   - -25% Melee Strength vs. Infantrie & Mounted
+   - +10% Defense Strength vs. Infantrie & Mounted
+   - -20% Attack Strength
+   - -50% Critical Chance
+
 ## Notes  
  
 - [ ] Add more Units
