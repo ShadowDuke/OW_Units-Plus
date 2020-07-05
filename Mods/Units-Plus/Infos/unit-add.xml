@@ -122,7 +122,7 @@
 		<aiYieldCost>
 			<Pair>
 				<zIndex>YIELD_FOOD</zIndex>
-				<iValue>50</iValue>
+				<iValue>30</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>YIELD_WOOD</zIndex>
