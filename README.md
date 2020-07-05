@@ -33,7 +33,7 @@ New Units for Old World
    - Build: 40 Training
    
 - Peltast: (only for Greece)
-   - HP: 24
+   - HP: 22
    - Movement: 2
    - Range: 2
    - Strength: 4
@@ -48,10 +48,11 @@ New Units for Old World
    - Range: 3
    - Strength: 5
    - Has ZOC
-   - Consumes: 3 Wood/Year
-   - Costs: 25 Food & 50 Wood
-   - Build: 70 Training
-   - Needs Tech: Military Drill
+   - Consumes: 1 FoodYYear, 1 Wood/Year & 1 Iron/Year
+   - Costs: 30 Food, 30 Wood & 30 Iron
+   - Build: 100 Training
+    - Has Trait "Javelin"
+   - Needs Tech: Phalanx
    
 - Chariot Archer:
    - HP: 20
@@ -74,6 +75,16 @@ New Units for Old World
    - +10% Defense Strength vs. Infantrie & Mounted
    - -20% Attack Strength
    - -50% Critical Chance
+   
+- Javelin
+   - If Same Unit Adjacent: +10% Attack Strength
+   - Ignores Distance Modifier
+   - +20% Attack Strength vs. Melee
+   - +30% Attack Strength vs. Mounted
+   - -10% Attack Strength vs. Ranged
+   - -10% Defense Strength vs. Melee
+   - -20% Defense Strength vs. Ranged
+   - +15% Defense Strength vs. Mounted
 
 ## Notes  
  
