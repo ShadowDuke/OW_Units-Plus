@@ -35,4 +35,39 @@
 			</Pair>
 		</abHideVegetation>
 	</Entry>
+	<Entry>
+		<zType>EFFECTUNIT_JAVELINEER</zType>
+		<Name>TEXT_EFFECTUNIT_JAVELINEER</Name>
+		<zIconName>EFFECTUNIT_EAGLE_EYE</zIconName>
+		<iAdjacentSameModifier>10</iAdjacentSameModifier>
+		<bIgnoresDistance>1</bIgnoresDistance>
+		<aiUnitTraitModifierAttack>
+			<Pair>
+				<zIndex>UNITTRAIT_MELEE</zIndex>
+				<iValue>20</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>UNITTRAIT_RANGED</zIndex>
+				<iValue>-10</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>UNITTRAIT_MOUNTED</zIndex>
+				<iValue>30</iValue>
+			</Pair>
+		</aiUnitTraitModifierAttack>
+		<aiUnitTraitModifierDefense>
+			<Pair>
+				<zIndex>UNITTRAIT_MELEE</zIndex>
+				<iValue>-10</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>UNITTRAIT_RANGED</zIndex>
+				<iValue>-10</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>UNITTRAIT_MOUNTED</zIndex>
+				<iValue>15</iValue>
+			</Pair>
+		</aiUnitTraitModifierDefense>
+	</Entry>
 </Root>

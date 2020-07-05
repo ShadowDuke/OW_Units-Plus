@@ -94,25 +94,27 @@
 		<zBackgroundName>GenericUnitAttackBackground</zBackgroundName>
 		<zAudioSelectionType>SPEAR</zAudioSelectionType>
 		<zAudioMovementType>INFANTRY_METAL_LIGHT</zAudioMovementType>
-		<zAudioAttackType>RANGED_BOW</zAudioAttackType>
+		<zAudioAttackType>GENERIC</zAudioAttackType>
 		<aeFormations>
 			<zValue>FORMATION_JAVELINEER</zValue>
+			<zValue>FORMATION_SPEARMAN</zValue>
 		</aeFormations>
 		<UnitCycle>UNITCYCLE_MILITARY_RANGED</UnitCycle>
-		<TechPrereq>TECH_MILITARY_DRILL</TechPrereq>
+		<TechPrereq>TECH_PHALANX</TechPrereq>
 		<ProductionType>YIELD_TRAINING</ProductionType>
 		<iMovement>2</iMovement>
-		<iVision>5</iVision>
+		<iVision>4</iVision>
 		<iFatigue>3</iFatigue>
 		<iStrength>50</iStrength>
 		<iRangeMax>2</iRangeMax>
 		<iHPMax>20</iHPMax>
-		<iProduction>70</iProduction>
-		<fAttackDuration>1</fAttackDuration>
+		<iProduction>100</iProduction>
+		<fAttackDuration>1.5</fAttackDuration>
 		<bReveal>1</bReveal>
 		<bOutsideOpinion>1</bOutsideOpinion>
 		<bZOC>1</bZOC>
 		<bBlocks>1</bBlocks>
+		<bFortify>1</bFortify>
 		<bPillage>1</bPillage>
 		<bPromote>1</bPromote>
 		<bGeneral>1</bGeneral>
@@ -120,23 +122,44 @@
 		<aiYieldCost>
 			<Pair>
 				<zIndex>YIELD_FOOD</zIndex>
-				<iValue>25</iValue>
+				<iValue>50</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>YIELD_WOOD</zIndex>
-				<iValue>50</iValue>
+				<iValue>30</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>YIELD_IRON</zIndex>
+				<iValue>30</iValue>
 			</Pair>
 		</aiYieldCost>
 		<aiYieldConsumption>
+		<Pair>
+				<zIndex>YIELD_FOOD</zIndex>
+				<iValue>1</iValue>
+			</Pair>
 			<Pair>
 				<zIndex>YIELD_WOOD</zIndex>
-				<iValue>3</iValue>
+				<iValue>1</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>YIELD_IRON</zIndex>
+				<iValue>1</iValue>
 			</Pair>
 		</aiYieldConsumption>
+		<aeUpgradeUnit>
+			<zValue>UNIT_PIKEMAN</zValue>
+			<zValue>UNIT_SWORDSMAN</zValue>
+		</aeUpgradeUnit>
 		<aeUnitTrait>
+			<zValue>UNITTRAIT_MELEE</zValue>
 			<zValue>UNITTRAIT_RANGED</zValue>
 			<zValue>UNITTRAIT_INFANTRY</zValue>
+			<zValue>UNITTRAIT_POLEARM</zValue>
 		</aeUnitTrait>
+		<aeEffectUnit>
+			<zValue>EFFECTUNIT_JAVELINEER</zValue>
+		</aeEffectUnit>
 	</Entry>
 	<Entry>
 		<zType>UNIT_SKIRMISHER</zType>

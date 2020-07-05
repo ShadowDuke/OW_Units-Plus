@@ -8,11 +8,19 @@
 		<English>Scout Warrior</English>
 	</Entry>
 	<Entry>
+		<zType>TEXT_EFFECTUNIT_JAVELINEER</zType>
+		<English>Javelin</English>
+	</Entry>
+	<Entry>
 		<zType>TEXT_EFFECTUNIT_MILITARY_SCOUT</zType>
 		<Translation>Militär Späher</Translation>
 	</Entry>
 	<Entry>
 		<zType>TEXT_UNIT_SCOUT_WARRIOR</zType>
 		<Translation>Späher Krieger</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EFFECTUNIT_JAVELINEER</zType>
+		<Translation>Wurfspeer</Translation>
 	</Entry>
 </Root>
