@@ -62,6 +62,16 @@
 		<bOutsideOpinion>1</bOutsideOpinion>
 		<bZOC>1</bZOC>
 		<bBlocks>1</bBlocks>
+		<aiYieldCost>
+			<Pair>
+				<zIndex>YIELD_IRON</zIndex>
+				<iValue>30</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>YIELD_FOOD</zIndex>
+				<iValue>10</iValue>
+			</Pair>
+		</aiYieldCost>
 		<aiYieldConsumption>
 			<Pair>
 				<zIndex>YIELD_FOOD</zIndex>
@@ -82,9 +92,9 @@
 		<zIconName>UNIT_JAVELINEER</zIconName>
 		<zPortraitName>UNIT_JAVELINEER</zPortraitName>
 		<zBackgroundName>GenericUnitAttackBackground</zBackgroundName>
-		<zAudioSelectionType>MILITARY</zAudioSelectionType>
-		<zAudioMovementType>GENERIC</zAudioMovementType>
-		<zAudioAttackType>ANIMATED</zAudioAttackType>
+		<zAudioSelectionType>SPEAR</zAudioSelectionType>
+		<zAudioMovementType>INFANTRY_METAL_LIGHT</zAudioMovementType>
+		<zAudioAttackType>RANGED_BOW</zAudioAttackType>
 		<aeFormations>
 			<zValue>FORMATION_JAVELINEER</zValue>
 		</aeFormations>
@@ -97,8 +107,8 @@
 		<iStrength>50</iStrength>
 		<iRangeMax>2</iRangeMax>
 		<iHPMax>20</iHPMax>
-		<iProduction>50</iProduction>
-		<fAttackDuration>3</fAttackDuration>
+		<iProduction>70</iProduction>
+		<fAttackDuration>1</fAttackDuration>
 		<bReveal>1</bReveal>
 		<bOutsideOpinion>1</bOutsideOpinion>
 		<bZOC>1</bZOC>
@@ -119,12 +129,8 @@
 		</aiYieldCost>
 		<aiYieldConsumption>
 			<Pair>
-				<zIndex>YIELD_FOOD</zIndex>
-				<iValue>1</iValue>
-			</Pair>
-			<Pair>
 				<zIndex>YIELD_WOOD</zIndex>
-				<iValue>1</iValue>
+				<iValue>3</iValue>
 			</Pair>
 		</aiYieldConsumption>
 		<aeUnitTrait>
@@ -138,8 +144,8 @@
 		<zIconName>UNIT_SKIRMISHER</zIconName>
 		<zPortraitName>UNIT_SKIRMISHER</zPortraitName>
 		<zBackgroundName>GenericUnitAttackBackground</zBackgroundName>
-		<zAudioSelectionType>MILITARY</zAudioSelectionType>
-		<zAudioMovementType>GENERIC</zAudioMovementType>
+		<zAudioSelectionType>SLINGER</zAudioSelectionType>
+		<zAudioMovementType>SLINGER</zAudioMovementType>
 		<zAudioAttackType>ANIMATED</zAudioAttackType>
 		<aeFormations>
 			<zValue>FORMATION_SKIRMISHER</zValue>
@@ -165,7 +171,7 @@
 		<aiYieldCost>
 			<Pair>
 				<zIndex>YIELD_FOOD</zIndex>
-				<iValue>10</iValue>
+				<iValue>20</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>YIELD_WOOD</zIndex>
@@ -189,8 +195,8 @@
 		<zIconName>UNIT_PELTAST</zIconName>
 		<zPortraitName>UNIT_PELTAST</zPortraitName>
 		<zBackgroundName>GenericUnitAttackBackground</zBackgroundName>
-		<zAudioSelectionType>MILITARY</zAudioSelectionType>
-		<zAudioMovementType>GENERIC</zAudioMovementType>
+		<zAudioSelectionType>SLINGER</zAudioSelectionType>
+		<zAudioMovementType>SLINGER</zAudioMovementType>
 		<zAudioAttackType>ANIMATED</zAudioAttackType>
 		<aeFormations>
 			<zValue>FORMATION_PELTAST_THRACIANS</zValue>
@@ -203,8 +209,8 @@
 		<iFatigue>3</iFatigue>
 		<iStrength>40</iStrength>
 		<iRangeMax>2</iRangeMax>
-		<iHPMax>24</iHPMax>
-		<iProduction>40</iProduction>
+		<iHPMax>22</iHPMax>
+		<iProduction>70</iProduction>
 		<fAttackDuration>3</fAttackDuration>
 		<bReveal>1</bReveal>
 		<bOutsideOpinion>1</bOutsideOpinion>
