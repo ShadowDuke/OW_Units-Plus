@@ -45,7 +45,7 @@ New Units for Old World
 - Javeliner:
    - HP: 20
    - Movement: 2
-   - Range: 3
+   - Range: 2
    - Strength: 5
    - Has ZOC
    - Consumes: 1 Food/Year, 1 Wood/Year & 1 Iron/Year
