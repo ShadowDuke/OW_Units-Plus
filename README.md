@@ -87,7 +87,9 @@ New Units for Old World
    - +15% Defense Strength vs. Mounted
 
 ## Notes  
- 
+
+**Mod compatibility with all my mods**
+
 - [ ] Add more Units
 
 
