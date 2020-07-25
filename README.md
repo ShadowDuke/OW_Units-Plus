@@ -12,15 +12,6 @@ New Units for Old World
 2. Go to "Mods" in the main menu and enable "Units Plus", click "Save" then "Play with Mods" or set up a new game and go to Advanced Setup to find the mod at the bottom and enable it. 
 3. Start a new game
 
-## Changes
-
-- Scout:
-   - Can now attack
-   - Has Trait "Military Scout"
-   - Consumes now 1 Food/Year
-   - Starts with "panic"
-   - Can only be upgraded to Scout Warrior
-   - Can still not train or earn XP
 
 ## New Units
 
@@ -101,6 +92,8 @@ New Units for Old World
    - +15% Defense Strength vs. Mounted
 
 ## Notes  
+
+- If you play wiith "Defending Scouts" Scouts will attack with full strength, this is not intended. Defennding Scouts mod main purpose is to give people who were requesting it an option to attack with them.
 
 **Mod compatibility with all my mods**
 
