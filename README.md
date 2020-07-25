@@ -12,6 +12,16 @@ New Units for Old World
 2. Go to "Mods" in the main menu and enable "Units Plus", click "Save" then "Play with Mods" or set up a new game and go to Advanced Setup to find the mod at the bottom and enable it. 
 3. Start a new game
 
+## Changes
+
+- Scout:
+   - Can now attack
+   - Has Trait "Military Scout"
+   - Consumes now 1 Food/Year
+   - Starts with "panic"
+   - Can only be upgraded to Scout Warrior
+   - Can still not train or earn XP
+
 ## New Units
 
 - Scout Warrior:
