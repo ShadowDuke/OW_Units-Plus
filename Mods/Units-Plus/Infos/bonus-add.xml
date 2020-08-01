@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSpy v2019 rel. 3 sp1 (x64) (http://www.altova.com) by Leyla Johnson (Private) -->
+<Root>
+	<Entry>
+		<zType>BONUS_TECH_MILITARY_REFORM_BONUS_TRIARIUS_UNIT</zType>
+		<aiUnits>
+			<Pair>
+				<zIndex>UNIT_TRIARIUS</zIndex>
+				<iValue>1</iValue>
+			</Pair>
+		</aiUnits>
+	</Entry>
+	<Entry>
+		<zType>BONUS_TECH_MACHINERY_HELEPOLIS_BONUS_UNIT</zType>
+		<aiUnits>
+			<Pair>
+				<zIndex>UNIT_HELEPOLIS</zIndex>
+				<iValue>1</iValue>
+			</Pair>
+		</aiUnits>
+	</Entry>
+</Root>

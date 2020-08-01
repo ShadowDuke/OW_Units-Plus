@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSpy v2019 rel. 3 sp1 (x64) (http://www.altova.com) by Leyla Johnson (Private) -->
+<Root>
+	<Entry>
+		<zType>TECH_TECH_MILITARY_REFORM_BONUS_TRIARIUS</zType>
+		<Name>TEXT_TECH_TECH_MILITARY_REFORM_BONUS_TRIARIUS</Name>
+		<zIconName>UNIT_LEGIONARY</zIconName>
+		<BonusDiscover>BONUS_TECH_MILITARY_REFORM_BONUS_TRIARIUS_UNIT</BonusDiscover>
+		<iCost>2200</iCost>
+		<bHide>1</bHide>
+		<bTrash>1</bTrash>
+		<bNoBonus>1</bNoBonus>
+		<bSkipLog>1</bSkipLog>
+		<abNationValid>
+			<Pair>
+				<zIndex>NATION_ROME</zIndex>
+				<bValue>1</bValue>
+			</Pair>
+		</abNationValid>
+		<abTechPrereq>
+			<Pair>
+				<zIndex>TECH_MILITARY_REFORM</zIndex>
+				<bValue>1</bValue>
+			</Pair>
+		</abTechPrereq>
+	</Entry>
+	<Entry>
+		<zType>TECH_MACHINERY_HELEPOLIS_BONUS</zType>
+		<Name>TEXT_TECH_MACHINERY_HELEPOLIS_BONUS</Name>
+		<zIconName>UNIT_SIEGE_TOWER</zIconName>
+		<BonusDiscover>BONUS_TECH_MACHINERY_HELEPOLIS_BONUS_UNIT</BonusDiscover>
+		<iCost>2000</iCost>
+		<bHide>1</bHide>
+		<bTrash>1</bTrash>
+		<bNoBonus>1</bNoBonus>
+		<bSkipLog>1</bSkipLog>
+		<bValidAll>1</bValidAll>
+		<abTechPrereq>
+			<Pair>
+				<zIndex>TECH_MACHINERY</zIndex>
+				<bValue>1</bValue>
+			</Pair>
+		</abTechPrereq>
+	</Entry>
+</Root>

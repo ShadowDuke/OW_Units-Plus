@@ -2,40 +2,6 @@
 <!-- edited with XMLSpy v2020 sp1 (x64) (http://www.altova.com) by Stephen Frank (AudioTank) -->
 <Root>
 	<Entry>
-		<zType>UNIT_SCOUT</zType>
-		<Name>TEXT_UNIT_SCOUT</Name>
-		<zIconName>UNIT_SCOUT</zIconName>
-		<zPortraitName>UNIT_SCOUT</zPortraitName>
-		<zBackgroundName>GenericUnitAttackBackground</zBackgroundName>
-		<zAudioSelectionType>SCOUT</zAudioSelectionType>
-		<zAudioMovementType>SCOUT</zAudioMovementType>
-		<zAudioAttackType>GENERIC</zAudioAttackType>
-		<aeFormations>
-			<zValue>FORMATION_SCOUT</zValue>
-			<zValue>FORMATION_SCOUT_WATER</zValue>
-		</aeFormations>
-		<UnitCycle>UNITCYCLE_SCOUT</UnitCycle>
-		<ProductionType>YIELD_GROWTH</ProductionType>
-		<iMovement>3</iMovement>
-		<iVision>5</iVision>
-		<iFatigue>4</iFatigue>
-		<iStrength>30</iStrength>
-		<iHPMax>20</iHPMax>
-		<iProduction>50</iProduction>
-		<iProductionPer>5</iProductionPer>
-		<iStartCity>1</iStartCity>
-		<bReveal>1</bReveal>
-		<bIgnoreZOC>1</bIgnoreZOC>
-		<bHarvest>1</bHarvest>
-		<bAgent>1</bAgent>
-		<aeUpgradeUnit>
-			<zValue>UNIT_SCOUT_WARRIOR</zValue>
-		</aeUpgradeUnit>
-		<aeEffectUnit>
-			<zValue>EFFECTUNIT_STEALTH</zValue>
-		</aeEffectUnit>
-	</Entry>
-	<Entry>
 		<zType>UNIT_SCOUT_WARRIOR</zType>
 		<Name>TEXT_UNIT_SCOUT_WARRIOR</Name>
 		<zIconName>UNIT_SCOUT</zIconName>
@@ -288,7 +254,7 @@
 		<EffectCityPrereq>EFFECTCITY_RESOURCE_HORSE</EffectCityPrereq>
 		<ProductionType>YIELD_TRAINING</ProductionType>
 		<iMovement>3</iMovement>
-		<iVision>6</iVision>
+		<iVision>5</iVision>
 		<iFatigue>3</iFatigue>
 		<iStrength>50</iStrength>
 		<iRangeMax>2</iRangeMax>
@@ -331,5 +297,131 @@
 			<zValue>UNITTRAIT_MOUNTED</zValue>
 			<zValue>UNITTRAIT_HORSE</zValue>
 		</aeUnitTrait>
+	</Entry>
+	<Entry>
+		<zType>UNIT_TRIARIUS</zType>
+		<Name>TEXT_UNIT_TRIARIUS</Name>
+		<zIconName>UNIT_LEGIONARY</zIconName>
+		<zPortraitName>UNIT_LEGIONARY</zPortraitName>
+		<zBackgroundName>GenericUnitAttackBackground</zBackgroundName>
+		<zAudioSelectionType>MILITARY</zAudioSelectionType>
+		<zAudioMovementType>GENERIC</zAudioMovementType>
+		<zAudioAttackType>GENERIC</zAudioAttackType>
+		<aeFormations>
+			<zValue>FORMATION_LEGIONARY</zValue>
+		</aeFormations>
+		<UnitCycle>UNITCYCLE_MILITARY_INFANTRY</UnitCycle>
+		<TechPrereq>TECH_UNIT_TACTICS</TechPrereq>
+		<NationPrereq>NATION_ROME</NationPrereq>
+		<ImprovementPrereq>IMPROVEMENT_GARRISON_3</ImprovementPrereq>
+		<ProductionType>YIELD_TRAINING</ProductionType>
+		<iMovement>2</iMovement>
+		<iVision>4</iVision>
+		<iFatigue>2</iFatigue>
+		<iStrength>100</iStrength>
+		<iHPMax>22</iHPMax>
+		<iProduction>120</iProduction>
+		<fAttackDuration>.5</fAttackDuration>
+		<bReveal>1</bReveal>
+		<bMelee>1</bMelee>
+		<bOutsideOpinion>1</bOutsideOpinion>
+		<bZOC>1</bZOC>
+		<bIgnoreZOC>1</bIgnoreZOC>
+		<bBlocks>1</bBlocks>
+		<bFortify>1</bFortify>
+		<bTestudo>1</bTestudo>
+		<bPillage>1</bPillage>
+		<bPromote>1</bPromote>
+		<bGeneral>1</bGeneral>
+		<aiYieldCost>
+			<Pair>
+				<zIndex>YIELD_IRON</zIndex>
+				<iValue>200</iValue>
+			</Pair>
+		</aiYieldCost>
+		<aiYieldConsumption>
+			<Pair>
+				<zIndex>YIELD_TRAINING</zIndex>
+				<iValue>3</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>YIELD_IRON</zIndex>
+				<iValue>3</iValue>
+			</Pair>
+		</aiYieldConsumption>
+		<aeUnitTrait>
+			<zValue>UNITTRAIT_MELEE</zValue>
+			<zValue>UNITTRAIT_INFANTRY</zValue>
+		</aeUnitTrait>
+	</Entry>
+	<Entry>
+		<zType>UNIT_HELEPOLIS</zType>
+		<Name>TEXT_UNIT_HELEPOLIS</Name>
+		<zIconName>UNIT_SIEGE_TOWER</zIconName>
+		<zPortraitName>UNIT_SIEGE_TOWER</zPortraitName>
+		<zBackgroundName>GenericUnitAttackBackground</zBackgroundName>
+		<zAudioSelectionType>SIEGE_TOWER</zAudioSelectionType>
+		<zAudioMovementType>SIEGE_WOOD_LARGE</zAudioMovementType>
+		<zAudioAttackType>GENERIC</zAudioAttackType>
+		<aeFormations>
+			<zValue>FORMATION_SIEGE_TOWER</zValue>
+		</aeFormations>
+		<UnitCycle>UNITCYCLE_MILITARY_SIEGE</UnitCycle>
+		<TechPrereq>TECH_SIEGECRAFT</TechPrereq>
+		<ImprovementPrereq>IMPROVEMENT_GARRISON_3</ImprovementPrereq>
+		<ProductionType>YIELD_TRAINING</ProductionType>
+		<iMovement>1</iMovement>
+		<iVision>3</iVision>
+		<iFatigue>3</iFatigue>
+		<iStrength>50</iStrength>
+		<iHPMax>20</iHPMax>
+		<iProduction>110</iProduction>
+		<fAttackDuration>2</fAttackDuration>
+    <fAnimNormalMoveDuration>.7</fAnimNormalMoveDuration>
+    <fAnimNormalMoveSpeed>1</fAnimNormalMoveSpeed>
+    <fAnimIntermediateMoveDuration>.5</fAnimIntermediateMoveDuration>
+    <fAnimIntermediateMoveSpeed>1.2</fAnimIntermediateMoveSpeed>
+    <fAnimFastMoveDuration>.3</fAnimFastMoveDuration>
+    <fAnimFastMoveSpeed>2</fAnimFastMoveSpeed>
+		<bReveal>1</bReveal>
+		<bMelee>1</bMelee>
+		<bOutsideOpinion>1</bOutsideOpinion>
+		<bBlocks>1</bBlocks>
+		<bPillage>1</bPillage>
+		<bPromote>1</bPromote>
+		<bGeneral>1</bGeneral>
+		<aiUnitTraitModifierDefense>
+			<Pair>
+				<zIndex>UNITTRAIT_RANGED</zIndex>
+				<iValue>225</iValue>
+			</Pair>
+		</aiUnitTraitModifierDefense>
+		<aiYieldCost>
+			<Pair>
+				<zIndex>YIELD_WOOD</zIndex>
+				<iValue>120</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>YIELD_IRON</zIndex>
+				<iValue>40</iValue>
+			</Pair>
+		</aiYieldCost>
+		<aiYieldConsumption>
+			<Pair>
+				<zIndex>YIELD_TRAINING</zIndex>
+				<iValue>2</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>YIELD_WOOD</zIndex>
+				<iValue>4</iValue>
+			</Pair>
+		</aiYieldConsumption>
+		<aeUnitTrait>
+			<zValue>UNITTRAIT_MELEE</zValue>
+			<zValue>UNITTRAIT_SIEGE</zValue>
+		</aeUnitTrait>
+		<aeEffectUnit>
+			<zValue>EFFECTUNIT_ASSAULT</zValue>
+		</aeEffectUnit>
 	</Entry>
 </Root>

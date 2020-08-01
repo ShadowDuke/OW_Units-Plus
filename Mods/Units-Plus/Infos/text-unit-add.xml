@@ -1,10 +1,34 @@
 <Root>
-  <Entry>
-    <zType>TEXT_UNIT_CHARIOT_ACHER</zType>
-    <English>Chariot Archer~a Chariot Archer~Chariot Archers</English>
-  </Entry>
-  <Entry>
-    <zType>TEXT_UNIT_CHARIOT_ACHER</zType>
-    <Translation>Streitwagen Bogenschütze~ein Streitwagen Bogenschütze~Streitwagen Bogenschützen</Translation>
-  </Entry>
+	<Entry>
+		<zType>TEXT_UNIT_SCOUT_WARRIOR</zType>
+		<English>Scout Warrior~a Scout Warrior~Scout Warriors</English>
+	</Entry>
+    <Entry>
+		<zType>TEXT_UNIT_CHARIOT_ACHER</zType>
+        <English>Chariot Archer~a Chariot Archer~Chariot Archers</English>
+    </Entry>
+    <Entry>
+		<zType>TEXT_UNIT_TRIARIUS</zType>
+		<English>Triarius~a Triarius~Triarii</English>
+    </Entry>
+	<Entry>
+		<zType>TEXT_UNIT_HELEPOLIS</zType>
+		<English>Helepolis~a Helepolis~Helepolises</English>
+    </Entry>
+	<Entry>
+		<zType>TEXT_UNIT_SCOUT_WARRIOR</zType>
+		<Translation>Späher Krieger~ein Späher Krieger~Späher Krieger</Translation>
+	</Entry>
+    <Entry>
+		<zType>TEXT_UNIT_CHARIOT_ACHER</zType>
+		<Translation>Streitwagen Bogenschütze~ein Streitwagen Bogenschütze~Streitwagen Bogenschützen</Translation>
+    </Entry>
+    <Entry>
+		<zType>TEXT_UNIT_TRIARIUS</zType>
+		<Translation>Triarer~ein Triarer~Triarier</Translation>
+    </Entry>
+	<Entry>
+		<zType>TEXT_UNIT_HELEPOLIS</zType>
+		<Translation>Helepolis~ein Helepolis~Helepolise</Translation>
+    </Entry>
 </Root>

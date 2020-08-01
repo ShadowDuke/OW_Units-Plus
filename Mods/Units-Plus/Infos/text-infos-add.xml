@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSpy v2019 rel. 3 sp1 (x64) (http://www.altova.com) by Leyla Johnson (Private) -->
+<Root>
+	<Entry>
+		<zType>TEXT_TECH_TECH_MILITARY_REFORM_BONUS_TRIARIUS</zType>
+		<English>Free Triarius</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_MACHINERY_HELEPOLIS_BONUS</zType>
+		<English>Free Helepolis</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_TECH_MILITARY_REFORM_BONUS_TRIARIUS</zType>
+		<Translation>Freier Triarer</Translation>
+	</Entry>
+	<Entry>
+		<zType>TEXT_TECH_MACHINERY_HELEPOLIS_BONUS</zType>
+		<Translation>Freier Helepolis</Translation>
+	</Entry>
+</Root>
