@@ -3,7 +3,7 @@
 You can still add them manually like before (github) but it would be certainly easier for you to create a [mod.io](https://oldworld.mod.io/) profile and get the mods and updates for them through the game now.**
 
 # Units-Plus
-New Units for Old World 
+New Units for Old World + 2 new "free unit game cards"
 
 ## Installation and use
 
@@ -18,19 +18,23 @@ New Units for Old World
 - Scout Warrior:
    - HP: 20
    - Movement: 3
-   - Fatigue Limit: +1
+   - Fatigue Limit: 4
+   - Vision: 5
    - Strength: 4
    - Has ZOC
    - Consumes: 2 Food/Year
    - Costs: 10 Food & 30 Iron
    - Build: 40 Training
    - Can only be upgraded from Scouts
+   - Can not train or earn XP
    - Has Trait "Military Scout"
+   - Needs Tech: Ironworking
 
 - Skirmisher:
    - HP: 20
    - Movement: 2
    - Range: 2
+   - Vision: 4
    - Strength: 3
    - Has ZOC
    - Consumes: 2 Food/Year
@@ -41,6 +45,7 @@ New Units for Old World
    - HP: 22
    - Movement: 2
    - Range: 2
+   - Vision: 4
    - Strength: 4
    - Has ZOC
    - Consumes: 2 Food/Year & 2 Wood/Year
@@ -51,6 +56,7 @@ New Units for Old World
    - HP: 20
    - Movement: 2
    - Range: 2
+   - Vision: 4
    - Strength: 5
    - Has ZOC
    - Consumes: 1 Food/Year, 1 Wood/Year & 1 Iron/Year
@@ -63,6 +69,7 @@ New Units for Old World
    - HP: 20
    - Movement: 3
    - Range: 2
+   - Vision: 5
    - Strength: 5
    - Ignores ZOC
    - Consumes: 3 Food/Year & 1 Training/Year
@@ -70,6 +77,44 @@ New Units for Old World
    - Build: 80 Training
    - Needs Horses
    - Needs Tech: Mounted Archery
+   
+- Triarius: (only for Rome)
+   - HP: 22
+   - Movement: 2
+   - Fatigue Limit: 2
+   - Vision: 4
+   - Strength: 10
+   - Has ZOC
+   - Consumes: 3 Training/Year & 3 Iron/Year
+   - Costs: 200 Iron
+   - Build: 120 Training
+   - Needs Tech: Unit Tactics
+   - Needs Improvement: Citadel
+   - Has a "free unit card" at Military Reform
+   
+- Helepolis: (Siege Tower)
+   - HP: 20
+   - Movement: 1
+   - Fatigue Limit: 2
+   - Vision: 3
+   - Strength: 5
+   - Defense Strength vs. Ranged: +225%
+   - Starts with: Assault
+   - Consumes: 2 Training/Year & 4 Wood/Year
+   - Costs: 120 Wood & 40 Iron
+   - Build: 110 Training
+   - Needs Tech: Siegecraft
+   - Needs Improvement: Citadel
+   - Has a "free unit card" at Machinery
+
+## Changes to Units
+
+- Legionary (only for Rome)
+   - Strength: 9
+   - Consumes: 2 Training/Year & 2 Iron/Year
+   - Costs: 170 Iron
+   - Build: 110 Training
+   - Upgrades to: Triarius
    
 ## New Trait
 
