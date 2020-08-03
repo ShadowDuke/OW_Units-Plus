@@ -138,7 +138,7 @@ New Units for Old World + 2 new "free unit game cards"
 
 ## Notes  
 
-- If you play wiith "Defending Scouts" Scouts will attack with full strength, this is not intended. Defennding Scouts mod main purpose is to give people who were requesting it an option to attack with them.
+- If you play with "Defending Scouts" Scouts will attack with full strength, this is not intended. Defennding Scouts mod main purpose is to give people who were requesting it an option to attack with them.
 
 **Mod compatibility with all my mods**
 
