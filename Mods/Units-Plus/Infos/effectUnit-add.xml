@@ -21,11 +21,11 @@
 		<aiUnitTraitModifierMelee>
 			<Pair>
 				<zIndex>UNITTRAIT_INFANTRY</zIndex>
-				<iValue>-25</iValue>
+				<iValue>-20</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>UNITTRAIT_MOUNTED</zIndex>
-				<iValue>-25</iValue>
+				<iValue>-20</iValue>
 			</Pair>
 		</aiUnitTraitModifierMelee>
 		<abHideVegetation>

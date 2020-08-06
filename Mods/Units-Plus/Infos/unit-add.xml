@@ -88,11 +88,11 @@
 		<aiYieldCost>
 			<Pair>
 				<zIndex>YIELD_FOOD</zIndex>
-				<iValue>30</iValue>
+				<iValue>40</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>YIELD_WOOD</zIndex>
-				<iValue>30</iValue>
+				<iValue>40</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>YIELD_IRON</zIndex>
@@ -106,7 +106,7 @@
 			</Pair>
 			<Pair>
 				<zIndex>YIELD_WOOD</zIndex>
-				<iValue>1</iValue>
+				<iValue>2</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>YIELD_IRON</zIndex>
@@ -199,7 +199,7 @@
 		<iStrength>40</iStrength>
 		<iRangeMax>2</iRangeMax>
 		<iHPMax>22</iHPMax>
-		<iProduction>70</iProduction>
+		<iProduction>60</iProduction>
 		<fAttackDuration>3</fAttackDuration>
 		<bReveal>1</bReveal>
 		<bOutsideOpinion>1</bOutsideOpinion>
@@ -212,11 +212,11 @@
 		<aiYieldCost>
 			<Pair>
 				<zIndex>YIELD_FOOD</zIndex>
-				<iValue>20</iValue>
+				<iValue>30</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>YIELD_WOOD</zIndex>
-				<iValue>20</iValue>
+				<iValue>30</iValue>
 			</Pair>
 		</aiYieldCost>
 		<aiYieldConsumption>
