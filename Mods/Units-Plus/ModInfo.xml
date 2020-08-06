@@ -1,6 +1,12 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0"?>
 <ModInfo xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <description>Units Plus</description>
+  <modpicture>unitsplus.png</modpicture>
+  <author>Revan/ShadowDuke</author>
+  <modioID>143290</modioID>
+  <modioFileID>180720</modioFileID>
+  <modversion>1.1</modversion>
+  <homepage>https://github.com/ShadowDuke/OW_Units-Plus</homepage>
   <singlePlayer>true</singlePlayer>
   <multiplayer>true</multiplayer>
 </ModInfo>
