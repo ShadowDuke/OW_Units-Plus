@@ -18,6 +18,7 @@
 		<ProductionType>YIELD_GROWTH</ProductionType>
 		<iMovement>3</iMovement>
 		<iVision>5</iVision>
+		<iReveal>1</iReveal>
 		<iFatigue>4</iFatigue>
 		<iStrength>30</iStrength>
 		<iHPMax>20</iHPMax>
