@@ -23,7 +23,7 @@ New Units for Old World + 2 new "free unit game cards"
    - Strength: 4
    - Has ZOC
    - Consumes: 2 Food/Year
-   - Costs: 10 Food & 30 Iron
+   - Costs: 10 Food & 20 Iron
    - Build: 40 Training
    - Can only be upgraded from Scouts
    - Can not train or earn XP
@@ -49,8 +49,8 @@ New Units for Old World + 2 new "free unit game cards"
    - Strength: 4
    - Has ZOC
    - Consumes: 2 Food/Year & 2 Wood/Year
-   - Costs: 20 Food & 20 Wood
-   - Build: 70 Training
+   - Costs: 30 Food & 30 Wood
+   - Build: 60 Training
 
 - Javeliner:
    - HP: 20
@@ -59,8 +59,8 @@ New Units for Old World + 2 new "free unit game cards"
    - Vision: 4
    - Strength: 5
    - Has ZOC
-   - Consumes: 1 Food/Year, 1 Wood/Year & 1 Iron/Year
-   - Costs: 30 Food, 30 Wood & 30 Iron
+   - Consumes: 1 Food/Year, 2 Wood/Year & 1 Iron/Year
+   - Costs: 40 Food, 40 Wood & 30 Iron
    - Build: 100 Training
    - Has Trait "Javelin"
    - Needs Tech: Phalanx
@@ -121,7 +121,7 @@ New Units for Old World + 2 new "free unit game cards"
 - Military Scout
    - Hidden in Trees
    - Heals -1 HP (5HP -> 4HP)
-   - -25% Melee Strength vs. Infantrie & Mounted
+   - -20% Melee Strength vs. Infantrie & Mounted
    - +10% Defense Strength vs. Infantrie & Mounted
    - -20% Attack Strength
    - -50% Critical Chance
