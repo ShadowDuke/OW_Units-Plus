@@ -367,7 +367,7 @@
 			<zValue>FORMATION_SIEGE_TOWER</zValue>
 		</aeFormations>
 		<UnitCycle>UNITCYCLE_MILITARY_SIEGE</UnitCycle>
-		<TechPrereq>TECH_SIEGECRAFT</TechPrereq>
+		<TechPrereq>TECH_MACHINERY</TechPrereq>
 		<ImprovementPrereq>IMPROVEMENT_GARRISON_3</ImprovementPrereq>
 		<ProductionType>YIELD_TRAINING</ProductionType>
 		<iMovement>1</iMovement>
