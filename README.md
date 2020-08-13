@@ -103,7 +103,7 @@ New Units for Old World + 2 new "free unit game cards"
    - Consumes: 2 Training/Year & 4 Wood/Year
    - Costs: 120 Wood & 40 Iron
    - Build: 110 Training
-   - Needs Tech: Siegecraft
+   - Needs Tech: Machinery
    - Needs Improvement: Citadel
    - Has a "free unit card" at Machinery
 
