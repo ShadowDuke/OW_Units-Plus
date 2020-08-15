@@ -58,8 +58,8 @@
 		<zIconName>UNIT_JAVELINEER</zIconName>
 		<zPortraitName>UNIT_JAVELINEER</zPortraitName>
 		<zBackgroundName>GenericUnitAttackBackground</zBackgroundName>
-		<zAudioSelectionType>SPEAR</zAudioSelectionType>
-		<zAudioMovementType>INFANTRY_METAL_LIGHT</zAudioMovementType>
+		<zAudioSelectionType>MILITARY</zAudioSelectionType>
+		<zAudioMovementType>GENERIC</zAudioMovementType>
 		<zAudioAttackType>GENERIC</zAudioAttackType>
 		<aeFormations>
 			<zValue>FORMATION_JAVELINEER</zValue>
@@ -133,9 +133,9 @@
 		<zIconName>UNIT_SKIRMISHER</zIconName>
 		<zPortraitName>UNIT_SKIRMISHER</zPortraitName>
 		<zBackgroundName>GenericUnitAttackBackground</zBackgroundName>
-		<zAudioSelectionType>SLINGER</zAudioSelectionType>
-		<zAudioMovementType>SLINGER</zAudioMovementType>
-		<zAudioAttackType>ANIMATED</zAudioAttackType>
+		<zAudioSelectionType>MILITARY</zAudioSelectionType>
+		<zAudioMovementType>INFANTRY_LEATHER_LIGHT_ANIMATED</zAudioMovementType>
+		<zAudioAttackType>GENERIC</zAudioAttackType>
 		<aeFormations>
 			<zValue>FORMATION_SKIRMISHER</zValue>
 		</aeFormations>
@@ -184,8 +184,8 @@
 		<zIconName>UNIT_PELTAST</zIconName>
 		<zPortraitName>UNIT_PELTAST</zPortraitName>
 		<zBackgroundName>GenericUnitAttackBackground</zBackgroundName>
-		<zAudioSelectionType>SLINGER</zAudioSelectionType>
-		<zAudioMovementType>SLINGER</zAudioMovementType>
+		<zAudioSelectionType>MILITARY</zAudioSelectionType>
+		<zAudioMovementType>INFANTRY_METAL_LIGHT_ANIMATED</zAudioMovementType>
 		<zAudioAttackType>ANIMATED</zAudioAttackType>
 		<aeFormations>
 			<zValue>FORMATION_PELTAST_THRACIANS</zValue>
