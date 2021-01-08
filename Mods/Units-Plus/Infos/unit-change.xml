@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<!-- edited with XMLSpy v2020 sp1 (x64) (http://www.altova.com) by Stephen Frank (AudioTank) -->
+<!-- Units+ (Revan) -->
 <Root>
 	<Entry>
 		<zType>UNIT_SCOUT</zType>
@@ -25,7 +24,6 @@
 		<iProduction>50</iProduction>
 		<iProductionPer>5</iProductionPer>
 		<iStartCity>1</iStartCity>
-		<bReveal>1</bReveal>
 		<bIgnoreZOC>1</bIgnoreZOC>
 		<bHarvest>1</bHarvest>
 		<bAgent>1</bAgent>
@@ -59,7 +57,6 @@
 		<iHPMax>20</iHPMax>
 		<iProduction>110</iProduction>
 		<fAttackDuration>.5</fAttackDuration>
-		<bReveal>1</bReveal>
 		<bMelee>1</bMelee>
 		<bOutsideOpinion>1</bOutsideOpinion>
 		<bZOC>1</bZOC>
