@@ -310,7 +310,7 @@
 			<zValue>FORMATION_LEGIONARY</zValue>
 		</aeFormations>
 		<UnitCycle>UNITCYCLE_MILITARY_INFANTRY</UnitCycle>
-		<TechPrereq>TECH_UNIT_TACTICS</TechPrereq>
+		<TechPrereq>TECH_COHORTS</TechPrereq>
 		<NationPrereq>NATION_ROME</NationPrereq>
 		<ImprovementPrereq>IMPROVEMENT_GARRISON_3</ImprovementPrereq>
 		<ProductionType>YIELD_TRAINING</ProductionType>
