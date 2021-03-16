@@ -8,8 +8,7 @@
 		<iCost>2200</iCost>
 		<bHide>1</bHide>
 		<bTrash>1</bTrash>
-		<bNoBonus>1</bNoBonus>
-		<bSkipLog>1</bSkipLog>
+		<bNoFree>1</bNoFree>
 		<abNationValid>
 			<Pair>
 				<zIndex>NATION_ROME</zIndex>
@@ -31,8 +30,7 @@
 		<iCost>2000</iCost>
 		<bHide>1</bHide>
 		<bTrash>1</bTrash>
-		<bNoBonus>1</bNoBonus>
-		<bSkipLog>1</bSkipLog>
+		<bNoFree>1</bNoFree>
 		<bValidAll>1</bValidAll>
 		<abTechPrereq>
 			<Pair>

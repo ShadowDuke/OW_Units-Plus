@@ -249,7 +249,7 @@
 			<zValue>FORMATION_CHARIOT</zValue>
 		</aeFormations>
 		<UnitCycle>UNITCYCLE_MILITARY_MOUNTED</UnitCycle>
-		<TechPrereq>TECH_MOUNTED_ARCHERY</TechPrereq>
+		<TechPrereq>TECH_STIRRUPS</TechPrereq>
 		<EffectCityPrereq>EFFECTCITY_RESOURCE_HORSE</EffectCityPrereq>
 		<ProductionType>YIELD_TRAINING</ProductionType>
 		<iMovement>3</iMovement>
