@@ -23,7 +23,7 @@
 		<iHPMax>20</iHPMax>
 		<iProduction>50</iProduction>
 		<iProductionPer>5</iProductionPer>
-		<iStartCity>1</iStartCity>
+		<iStartFirst>1</iStartFirst>
 		<bIgnoreZOC>1</bIgnoreZOC>
 		<bHarvest>1</bHarvest>
 		<bAgent>1</bAgent>
