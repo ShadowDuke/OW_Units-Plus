@@ -17,7 +17,7 @@
 		</abNationValid>
 		<abTechPrereq>
 			<Pair>
-				<zIndex>TECH_MILITARY_REFORM</zIndex>
+				<zIndex>TECH_MILITARY_PRESTIGE</zIndex>
 				<bValue>1</bValue>
 			</Pair>
 		</abTechPrereq>
