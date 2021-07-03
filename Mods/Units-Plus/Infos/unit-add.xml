@@ -8,9 +8,23 @@
 		<zBackgroundName>GenericUnitAttackBackground</zBackgroundName>
 		<zAudioSelectionType>SCOUT</zAudioSelectionType>
 		<zAudioMovementType>INFANTRY_METAL_LIGHT</zAudioMovementType>
-		<zAudioAttackType>ANIMATED</zAudioAttackType>
+		<zAudioAttackType>GENERIC</zAudioAttackType>
+		<zAudioDamagedByProjectileType>flesh</zAudioDamagedByProjectileType>
+		<azGenderPortraitName>
+			<Pair>
+				<zIndex>GENDER_MALE</zIndex>
+				<zValue>UNIT_SCOUT</zValue>
+			</Pair>
+			<Pair>
+				<zIndex>GENDER_FEMALE</zIndex>
+				<zValue>UNIT_FEMALE_SCOUT</zValue>
+			</Pair>
+		</azGenderPortraitName>
 		<aeFormations>
 			<zValue>FORMATION_WARRIOR</zValue>
+			<zValue>FORMATION_SCOUT</zValue>
+			<zValue>FORMATION_SCOUT_FEMALE</zValue>
+			<zValue>FORMATION_SCOUT_WATER</zValue>
 		</aeFormations>
 		<UnitCycle>UNITCYCLE_MILITARY_INFANTRY</UnitCycle>
 		<TechPrereq>TECH_IRONWORKING</TechPrereq>
@@ -27,6 +41,16 @@
 		<bOutsideOpinion>1</bOutsideOpinion>
 		<bZOC>1</bZOC>
 		<bBlocks>1</bBlocks>
+		<aiStartDifficulty>
+			<Pair>
+				<zIndex>DIFFICULTY_ABLE</zIndex>
+				<iValue>1</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>DIFFICULTY_JUST</zIndex>
+				<iValue>1</iValue>
+			</Pair>
+		</aiStartDifficulty>
 		<aiYieldCost>
 			<Pair>
 				<zIndex>YIELD_IRON</zIndex>
@@ -58,11 +82,13 @@
 		<zPortraitName>UNIT_JAVELINEER</zPortraitName>
 		<zBackgroundName>GenericUnitAttackBackground</zBackgroundName>
 		<zAudioSelectionType>MILITARY</zAudioSelectionType>
-		<zAudioMovementType>GENERIC</zAudioMovementType>
-		<zAudioAttackType>GENERIC</zAudioAttackType>
+		<zAudioMovementType>ANIMATED</zAudioMovementType>
+		<zAudioAttackType>ANIMATED</zAudioAttackType>
+		<zAudioDamagedByProjectileType>flesh</zAudioDamagedByProjectileType>
 		<aeFormations>
 			<zValue>FORMATION_JAVELINEER</zValue>
 			<zValue>FORMATION_SPEARMAN</zValue>
+			<zValue>FORMATION_DEFAULT_WATER</zValue>
 		</aeFormations>
 		<UnitCycle>UNITCYCLE_MILITARY_RANGED</UnitCycle>
 		<TechPrereq>TECH_PHALANX</TechPrereq>
@@ -132,11 +158,22 @@
 		<zIconName>UNIT_SKIRMISHER</zIconName>
 		<zPortraitName>UNIT_SKIRMISHER</zPortraitName>
 		<zBackgroundName>GenericUnitAttackBackground</zBackgroundName>
-		<zAudioSelectionType>MILITARY</zAudioSelectionType>
+		<zAudioSelectionType>BOW</zAudioSelectionType>
 		<zAudioMovementType>INFANTRY_LEATHER_LIGHT_ANIMATED</zAudioMovementType>
-		<zAudioAttackType>GENERIC</zAudioAttackType>
+		<zAudioAttackType>ANIMATED</zAudioAttackType>
+		<zAudioDamagedByProjectileType>combo_flesh_chain_mail</zAudioDamagedByProjectileType>
+		<azGenderPortraitName>
+		<Pair>
+			<zIndex>GENDER_MALE</zIndex>
+			<zValue>UNIT_ARCHER</zValue>
+		</Pair>
+		<Pair>
+			<zIndex>GENDER_FEMALE</zIndex>
+			<zValue>UNIT_FEMALE_ARCHER</zValue>
+		</Pair>
 		<aeFormations>
 			<zValue>FORMATION_SKIRMISHER</zValue>
+			<zValue>FORMATION_DEFAULT_WATER</zValue>
 		</aeFormations>
 		<UnitCycle>UNITCYCLE_MILITARY_RANGED</UnitCycle>
 		<ProductionType>YIELD_TRAINING</ProductionType>
@@ -183,11 +220,15 @@
 		<zIconName>UNIT_PELTAST</zIconName>
 		<zPortraitName>UNIT_PELTAST</zPortraitName>
 		<zBackgroundName>GenericUnitAttackBackground</zBackgroundName>
-		<zAudioSelectionType>MILITARY</zAudioSelectionType>
-		<zAudioMovementType>INFANTRY_METAL_LIGHT_ANIMATED</zAudioMovementType>
+		<zAudioSelectionType>LONGBOW</zAudioSelectionType>
+		<zAudioMovementType>ANIMATED</zAudioMovementType>
 		<zAudioAttackType>ANIMATED</zAudioAttackType>
+		<zAudioDamagedByProjectileType>flesh</zAudioDamagedByProjectileType>
 		<aeFormations>
 			<zValue>FORMATION_PELTAST_THRACIANS</zValue>
+			<zValue>FORMATION_DEFAULT_WATER</zValue>
+			<zValue>FORMATION_ARCHER</zValue>
+			<zValue>FORMATION_ARCHER_FEMALE</zValue>
 		</aeFormations>
 		<UnitCycle>UNITCYCLE_MILITARY_RANGED</UnitCycle>
 		<NationPrereq>NATION_GREECE</NationPrereq>
@@ -243,10 +284,13 @@
 		<zPortraitName>UNIT_CHARIOT</zPortraitName>
 		<zBackgroundName>GenericUnitAttackBackground</zBackgroundName>
 		<zAudioSelectionType>CHARIOT</zAudioSelectionType>
-		<zAudioMovementType>CHARIOT</zAudioMovementType>
+		<zAudioMovementType>CHARIOT_BUGGY</zAudioMovementType>
 		<zAudioAttackType>RANGED_BOW</zAudioAttackType>
+		<zAudioDamagedByProjectileType>flesh</zAudioDamagedByProjectileType>
 		<aeFormations>
 			<zValue>FORMATION_CHARIOT</zValue>
+			<zValue>FORMATION_DEFAULT_WATER</zValue>
+			<zValue>FORMATION_SKIRMISHER</zValue>
 		</aeFormations>
 		<UnitCycle>UNITCYCLE_MILITARY_MOUNTED</UnitCycle>
 		<TechPrereq>TECH_STIRRUPS</TechPrereq>
@@ -303,11 +347,13 @@
 		<zIconName>UNIT_LEGIONARY</zIconName>
 		<zPortraitName>UNIT_LEGIONARY</zPortraitName>
 		<zBackgroundName>GenericUnitAttackBackground</zBackgroundName>
-		<zAudioSelectionType>MILITARY</zAudioSelectionType>
+		<zAudioSelectionType>LEGIONARY</zAudioSelectionType>
 		<zAudioMovementType>GENERIC</zAudioMovementType>
 		<zAudioAttackType>GENERIC</zAudioAttackType>
+		<zAudioDamagedByProjectileType>combo_flesh_metal</zAudioDamagedByProjectileType>
 		<aeFormations>
 			<zValue>FORMATION_LEGIONARY</zValue>
+			<zValue>FORMATION_DEFAULT_WATER</zValue>
 		</aeFormations>
 		<UnitCycle>UNITCYCLE_MILITARY_INFANTRY</UnitCycle>
 		<TechPrereq>TECH_COHORTS</TechPrereq>
@@ -361,9 +407,11 @@
 		<zBackgroundName>GenericUnitAttackBackground</zBackgroundName>
 		<zAudioSelectionType>SIEGE_TOWER</zAudioSelectionType>
 		<zAudioMovementType>SIEGE_WOOD_LARGE</zAudioMovementType>
-		<zAudioAttackType>GENERIC</zAudioAttackType>
+		<zAudioAttackType>ANIMATED</zAudioAttackType>
+		<zAudioDamagedByProjectileType>combo_metal_wood</zAudioDamagedByProjectileType>
 		<aeFormations>
 			<zValue>FORMATION_SIEGE_TOWER</zValue>
+			<zValue>FORMATION_DEFAULT_WATER</zValue>
 		</aeFormations>
 		<UnitCycle>UNITCYCLE_MILITARY_SIEGE</UnitCycle>
 		<TechPrereq>TECH_MACHINERY</TechPrereq>
