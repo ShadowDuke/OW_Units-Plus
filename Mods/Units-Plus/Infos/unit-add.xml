@@ -171,6 +171,7 @@
 			<zIndex>GENDER_FEMALE</zIndex>
 			<zValue>UNIT_FEMALE_ARCHER</zValue>
 		</Pair>
+		</azGenderPortraitName>
 		<aeFormations>
 			<zValue>FORMATION_SKIRMISHER</zValue>
 			<zValue>FORMATION_DEFAULT_WATER</zValue>
