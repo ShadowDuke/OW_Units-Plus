@@ -398,6 +398,7 @@
 		<aeUnitTrait>
 			<zValue>UNITTRAIT_MELEE</zValue>
 			<zValue>UNITTRAIT_INFANTRY</zValue>
+			<zValue>UNITTRAIT_POLEARM</zValue>
 		</aeUnitTrait>
 	</Entry>
 	<Entry>
