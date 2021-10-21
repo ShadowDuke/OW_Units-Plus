@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<Root>
+	<Entry>
+        <zType>LANGUAGE_TRANSLATION</zType>
+        <Name>TEXT_LANGUAGE_GERMAN</Name>
+		<zFieldName>de-DE</zFieldName>
+		<zFieldNameSecondary>Revan</zFieldNameSecondary>
+        <zISOCode>de</zISOCode>
+		<iExportColumn>3</iExportColumn>
+		<bPublicBuild>1</bPublicBuild>
+        <zSingularExpression>x==1</zSingularExpression>
+        <zThousandsSeparator>.</zThousandsSeparator>
+        <zDecimalSeparator>,</zDecimalSeparator>
+        <zCurrencyPrefix>€</zCurrencyPrefix>
+		<zThousandPostfix>T</zThousandPostfix>
+        <zMillionPostfix>M</zMillionPostfix>
+    </Entry>
+</Root>

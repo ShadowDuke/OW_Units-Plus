@@ -1,6 +1,10 @@
 <!-- Units+ (Revan) -->
 <Root>
 	<Entry>
+        <zType>TEXT_LANGUAGE_GERMAN</zType>
+        <de-DE>Deutsch</de-DE>
+    </Entry>
+	<Entry>
 		<zType>TEXT_TECH_TECH_MILITARY_REFORM_BONUS_TRIARIUS</zType>
 		<en-US>Free Triarius</en-US>
 	</Entry>
