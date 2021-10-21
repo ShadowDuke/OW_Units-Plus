@@ -2,18 +2,18 @@
 <Root>
 	<Entry>
 		<zType>TEXT_TECH_TECH_MILITARY_REFORM_BONUS_TRIARIUS</zType>
-		<English>Free Triarius</English>
+		<en-US>Free Triarius</en-US>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_MACHINERY_HELEPOLIS_BONUS</zType>
-		<English>Free Helepolis</English>
+		<en-US>Free Helepolis</en-US>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_TECH_MILITARY_REFORM_BONUS_TRIARIUS</zType>
-		<Translation>Freier Triarer</Translation>
+		<de-DE>Freier Triarer</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_TECH_MACHINERY_HELEPOLIS_BONUS</zType>
-		<Translation>Freier Helepolis</Translation>
+		<de-DE>Freier Helepolis</de-DE>
 	</Entry>
 </Root>

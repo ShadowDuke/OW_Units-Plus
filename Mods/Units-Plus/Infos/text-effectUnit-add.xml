@@ -2,18 +2,18 @@
 <Root>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_MILITARY_SCOUT</zType>
-		<English>Military Scout</English>
+		<en-US>Military Scout</en-US>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_JAVELINEER</zType>
-		<English>Javelin</English>
+		<en-US>Javelin</en-US>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_MILITARY_SCOUT</zType>
-		<Translation>Militär Späher</Translation>
+		<de-DE>Militär Späher</de-DE>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EFFECTUNIT_JAVELINEER</zType>
-		<Translation>Wurfspeer</Translation>
+		<de-DE>Wurfspeer</de-DE>
 	</Entry>
 </Root>

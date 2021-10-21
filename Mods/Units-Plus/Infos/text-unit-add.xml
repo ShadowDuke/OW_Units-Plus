@@ -2,34 +2,34 @@
 <Root>
 	<Entry>
 		<zType>TEXT_UNIT_SCOUT_WARRIOR</zType>
-		<English>Scout Warrior~a Scout Warrior~Scout Warriors</English>
+		<en-US>Scout Warrior~a Scout Warrior~Scout Warriors</en-US>
 	</Entry>
     <Entry>
 		<zType>TEXT_UNIT_CHARIOT_ACHER</zType>
-        <English>Chariot Archer~a Chariot Archer~Chariot Archers</English>
+        <en-US>Chariot Archer~a Chariot Archer~Chariot Archers</en-US>
     </Entry>
     <Entry>
 		<zType>TEXT_UNIT_TRIARIUS</zType>
-		<English>Triarius~a Triarius~Triarii</English>
+		<en-US>Triarius~a Triarius~Triarii</en-US>
     </Entry>
 	<Entry>
 		<zType>TEXT_UNIT_HELEPOLIS</zType>
-		<English>Helepolis~a Helepolis~Helepolises</English>
+		<en-US>Helepolis~a Helepolis~Helepolises</en-US>
     </Entry>
 	<Entry>
 		<zType>TEXT_UNIT_SCOUT_WARRIOR</zType>
-		<Translation>Späher Krieger~ein Späher Krieger~Späher Krieger</Translation>
+		<de-DE>Späher Krieger~ein Späher Krieger~Späher Krieger</de-DE>
 	</Entry>
     <Entry>
 		<zType>TEXT_UNIT_CHARIOT_ACHER</zType>
-		<Translation>Streitwagen Bogenschütze~ein Streitwagen Bogenschütze~Streitwagen Bogenschützen</Translation>
+		<de-DE>Streitwagen Bogenschütze~ein Streitwagen Bogenschütze~Streitwagen Bogenschützen</de-DE>
     </Entry>
     <Entry>
 		<zType>TEXT_UNIT_TRIARIUS</zType>
-		<Translation>Triarer~ein Triarer~Triarier</Translation>
+		<de-DE>Triarer~ein Triarer~Triarier</de-DE>
     </Entry>
 	<Entry>
 		<zType>TEXT_UNIT_HELEPOLIS</zType>
-		<Translation>Helepolis~ein Helepolis~Helepolise</Translation>
+		<de-DE>Helepolis~ein Helepolis~Helepolise</de-DE>
     </Entry>
 </Root>
