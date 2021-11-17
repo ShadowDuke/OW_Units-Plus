@@ -17,8 +17,12 @@
 		<en-US>Helepolis~a Helepolis~Helepolises</en-US>
     </Entry>
 	<Entry>
+		<zType>TEXT_UNIT_LIGHT_HORSE_ARCHER</zType>
+		<en-US>Light Horse Archer~a Light Horse Archer~Light Horse Archers</en-US>
+    </Entry>
+	<Entry>
 		<zType>TEXT_UNIT_SCOUT_WARRIOR</zType>
-		<de-DE>Späher Krieger~ein Späher Krieger~Späher Krieger</de-DE>
+		<de-DE>Jägersmann~ein Jägersmann~Jägersmänner</de-DE>
 	</Entry>
     <Entry>
 		<zType>TEXT_UNIT_CHARIOT_ACHER</zType>
@@ -31,5 +35,9 @@
 	<Entry>
 		<zType>TEXT_UNIT_HELEPOLIS</zType>
 		<de-DE>Helepolis~ein Helepolis~Helepolise</de-DE>
+    </Entry>
+	<Entry>
+		<zType>TEXT_UNIT_LIGHT_HORSE_ARCHER</zType>
+		<de-DE>Leichter beritt. Bogenschütze~ein leichter berit. Bogenschütze~Leichte beritt. Bogenschützen</de-DE>
     </Entry>
 </Root>
