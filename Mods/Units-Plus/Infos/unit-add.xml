@@ -75,10 +75,6 @@
 				<iValue>1</iValue>
 			</Pair>
 		</aiYieldConsumption>
-		<aeUnitTrait>
-			<zValue>UNITTRAIT_MELEE</zValue>
-			<zValue>UNITTRAIT_INFANTRY</zValue>
-		</aeUnitTrait>
 		<aeEffectUnit>
 			<zValue>EFFECTUNIT_MILITARY_SCOUT</zValue>
 		</aeEffectUnit>
