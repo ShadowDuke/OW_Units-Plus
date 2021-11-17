@@ -35,8 +35,8 @@
 		<iFatigue>4</iFatigue>
 		<iStrength>40</iStrength>
 		<iHPMax>20</iHPMax>
-		<iProduction>40</iProduction>
-		<iProductionPer>10</iProductionPer>
+		<iProduction>50</iProduction>
+		<iProductionPer>25</iProductionPer>
 		<bMelee>1</bMelee>
 		<bOutsideOpinion>1</bOutsideOpinion>
 		<bZOC>1</bZOC>
@@ -54,17 +54,25 @@
 		<aiYieldCost>
 			<Pair>
 				<zIndex>YIELD_IRON</zIndex>
-				<iValue>30</iValue>
+				<iValue>20</iValue>
 			</Pair>
 			<Pair>
 				<zIndex>YIELD_FOOD</zIndex>
-				<iValue>10</iValue>
+				<iValue>20</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>YIELD_MONEY</zIndex>
+				<iValue>20</iValue>
 			</Pair>
 		</aiYieldCost>
 		<aiYieldConsumption>
 			<Pair>
 				<zIndex>YIELD_FOOD</zIndex>
 				<iValue>2</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>YIELD_MONEY</zIndex>
+				<iValue>1</iValue>
 			</Pair>
 		</aiYieldConsumption>
 		<aeUnitTrait>

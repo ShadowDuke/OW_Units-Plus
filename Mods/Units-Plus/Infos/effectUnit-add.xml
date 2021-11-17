@@ -4,9 +4,30 @@
 		<zType>EFFECTUNIT_MILITARY_SCOUT</zType>
 		<Name>TEXT_EFFECTUNIT_MILITARY_SCOUT</Name>
 		<zIconName>EFFECTUNIT_STEALTH</zIconName>
-		<iStrengthModifier>-20</iStrengthModifier>
-		<iCriticalChance>-50</iCriticalChance>
+		<iStrengthModifier>-25</iStrengthModifier>
+		<iCriticalChance>-30</iCriticalChance>
 		<iHealExtra>-1</iHealExtra>
+		<bHealNeutral>1</bHealNeutral>
+		<aiVegetationFromModifier>
+			<Pair>
+				<zIndex>VEGETATION_TREES</zIndex>
+				<iValue>15</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>VEGETATION_SCRUB</zIndex>
+				<iValue>15</iValue>
+			</Pair>
+		</aiVegetationFromModifier>
+		<aiUnitTraitModifierAttack>
+			<Pair>
+				<zIndex>UNITTRAIT_INFANTRY</zIndex>
+				<iValue>-30</iValue>
+			</Pair>
+			<Pair>
+				<zIndex>UNITTRAIT_MOUNTED</zIndex>
+				<iValue>-30</iValue>
+			</Pair>
+		</aiUnitTraitModifierAttack>
 		<aiUnitTraitModifierDefense>
 			<Pair>
 				<zIndex>UNITTRAIT_INFANTRY</zIndex>
@@ -17,19 +38,13 @@
 				<iValue>10</iValue>
 			</Pair>
 		</aiUnitTraitModifierDefense>
-		<aiUnitTraitModifierMelee>
-			<Pair>
-				<zIndex>UNITTRAIT_INFANTRY</zIndex>
-				<iValue>-20</iValue>
-			</Pair>
-			<Pair>
-				<zIndex>UNITTRAIT_MOUNTED</zIndex>
-				<iValue>-20</iValue>
-			</Pair>
-		</aiUnitTraitModifierMelee>
 		<abHideVegetation>
 			<Pair>
 				<zIndex>VEGETATION_TREES</zIndex>
+				<bValue>1</bValue>
+			</Pair>
+			<Pair>
+				<zIndex>VEGETATION_SCRUB</zIndex>
 				<bValue>1</bValue>
 			</Pair>
 		</abHideVegetation>
