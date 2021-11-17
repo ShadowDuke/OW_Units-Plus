@@ -133,10 +133,11 @@ New Units for Old World + 2 new "free unit game cards"
 - Military Scout
    - Hidden in Trees
    - Heals -1 HP (5HP -> 4HP)
-   - -20% Melee Strength vs. Infantrie & Mounted
+   - -30% Melee Strength vs. Infantrie & Mounted
    - +10% Defense Strength vs. Infantrie & Mounted
-   - -20% Attack Strength
-   - -50% Critical Chance
+   - +15% Attack/Defense from Trees & Scrub
+   - -10% Attack/Defense Strength
+   - -30% Critical Chance
    
 - Javelin
    - If Same Unit Adjacent: +10% Attack Strength
