@@ -15,7 +15,7 @@ New Units for Old World + 2 new "free unit game cards"
 
 ## New Units
 
-- Scout Warrior:
+- Huntsman:
    - HP: 20
    - Movement: 3
    - Fatigue Limit: 4
@@ -23,8 +23,8 @@ New Units for Old World + 2 new "free unit game cards"
    - Strength: 4
    - Has ZOC
    - Consumes: 2 Food/Year
-   - Costs: 10 Food & 20 Iron
-   - Build: 40 Training
+   - Costs: 20 Gold, 20 Food & 20 Iron
+   - Build: 50 Training
    - Can only be upgraded from Scouts
    - Can not train or earn XP
    - Has Trait "Military Scout"
