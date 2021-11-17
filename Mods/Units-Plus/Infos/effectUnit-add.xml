@@ -4,7 +4,7 @@
 		<zType>EFFECTUNIT_MILITARY_SCOUT</zType>
 		<Name>TEXT_EFFECTUNIT_MILITARY_SCOUT</Name>
 		<zIconName>EFFECTUNIT_STEALTH</zIconName>
-		<iStrengthModifier>-25</iStrengthModifier>
+		<iStrengthModifier>-10</iStrengthModifier>
 		<iCriticalChance>-30</iCriticalChance>
 		<iHealExtra>-1</iHealExtra>
 		<bHealNeutral>1</bHealNeutral>
