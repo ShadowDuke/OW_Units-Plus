@@ -77,6 +77,18 @@ New Units for Old World + 2 new "free unit game cards"
    - Build: 80 Training
    - Needs Horses
    - Needs Tech: Mounted Archery
+
+- Light Horse Archer:
+   - HP: 20
+   - Movement: 2
+   - Range: 2
+   - Strength: 5
+   - Ignores ZOC
+   - Consumes: 2 Food/Year & 1 Training/Year
+   - Costs: 40 Food & 40 Wood
+   - Build: 65Training
+   - Needs Horses
+   - Needs Tech: Spoked Wheel
    
 - Triarius: (only for Rome)
    - HP: 22
