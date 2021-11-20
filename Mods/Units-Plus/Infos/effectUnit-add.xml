@@ -6,7 +6,7 @@
 		<zIconName>EFFECTUNIT_STEALTH</zIconName>
 		<iStrengthModifier>-10</iStrengthModifier>
 		<iCriticalChance>-30</iCriticalChance>
-		<iHealExtra>-1</iHealExtra>
+		<iHealExtra>-2</iHealExtra>
 		<bHealNeutral>1</bHealNeutral>
 		<aiVegetationFromModifier>
 			<Pair>
