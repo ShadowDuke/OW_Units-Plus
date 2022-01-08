@@ -443,12 +443,6 @@
 		<bPillage>1</bPillage>
 		<bPromote>1</bPromote>
 		<bGeneral>1</bGeneral>
-		<aiUnitTraitModifierDefense>
-			<Pair>
-				<zIndex>UNITTRAIT_RANGED</zIndex>
-				<iValue>225</iValue>
-			</Pair>
-		</aiUnitTraitModifierDefense>
 		<aiYieldCost>
 			<Pair>
 				<zIndex>YIELD_WOOD</zIndex>
