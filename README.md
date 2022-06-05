@@ -93,13 +93,13 @@ New Units for Old World + 2 new "free unit game cards"
 - Triarius: (only for Rome)
    - HP: 22
    - Movement: 2
-   - Fatigue Limit: 2
+   - Fatigue Limit: 3
    - Vision: 4
    - Strength: 10
    - Has ZOC
-   - Consumes: 3 Training/Year & 3 Iron/Year
-   - Costs: 200 Iron
-   - Build: 120 Training
+   - Consumes: 3 Training/Year & 4 Iron/Year
+   - Costs: 240 Iron
+   - Build: 220 Training
    - Needs Tech: Unit Tactics
    - Needs Improvement: Citadel
    - Has a "free unit card" at Military Reform
@@ -125,7 +125,7 @@ New Units for Old World + 2 new "free unit game cards"
    - Strength: 9
    - Consumes: 2 Training/Year & 2 Iron/Year
    - Costs: 170 Iron
-   - Build: 110 Training
+   - Build: 160 Training
    - Upgrades to: Triarius
    
 ## New Trait
